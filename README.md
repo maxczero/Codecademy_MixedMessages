@@ -9,4 +9,7 @@ This script should run in node.
 For the purposes of this project we have decided to create a simple Dungeons & Dragons chracter generator.
 Run the command character and recieve a newly generated character. 
 
-> Run the program by typing **node .load charactergen.js**
+> Run the program by typing: 
+
+  - node
+  - .load charactergen.js
