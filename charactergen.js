@@ -14,7 +14,7 @@ const character = class {
         this.skill = skills[Math.floor(Math.random() * skills.length)];
     
         this.level = Math.floor(Math.random() * 100);
-
+        
     }
 };
 
