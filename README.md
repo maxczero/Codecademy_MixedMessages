@@ -11,5 +11,5 @@ Run the command character and recieve a newly generated character.
 
 > Run the program by typing: 
 
-  - node
-  - .load charactergen.js
+  - `node`
+  - `.load charactergen.js`
