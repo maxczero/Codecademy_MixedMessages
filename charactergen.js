@@ -30,9 +30,9 @@ var createMessage = () => {
     let myOccupation = `\n Occupation: \t ${myCharacter.occupation}`
     let mySkill = `\n Skill: \t ${myCharacter.skill} `
     let myLevel = `\n Level: \t ${myCharacter.level} `
-    let finalString = '%c' + myName + myOccupation + mySkill + myLevel;
+    let finalString = myName + myOccupation + mySkill + myLevel;
 
     return finalString;
 };
 
-console.log(createMessage(), 'color: hotpink;');
+console.log(`${createMessage()}`);
